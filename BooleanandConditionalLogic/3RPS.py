@@ -1,10 +1,10 @@
-import random
+from random import randint
 # print("Rock...")
 # print("Paper...")
 # print("Scissors...")
 
 player = input("Player, make  your move: ").lower()
-rand_num = random.randint(0,2)
+rand_num = randint(0,2)
 if rand_num == 0:
     computer = "rock"
 elif rand_num == 1:
