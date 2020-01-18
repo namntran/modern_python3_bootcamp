@@ -2,18 +2,14 @@
 age = input("How old are you: ")
 if age:
     age = int(age)
-    if age >= 18 and age < 21:
-        # 18 - 21 wristband
-        print("You may enter, but you need to wear a wristband ")
-    
-    elif age >= 21:
-        # 21+ drink, normal entry
+    if age >= 21:
         print("You may enter and allowed to drink")
+    
+    elif age >= 18:
+        print("You may enter, but you need to wear a wristband")
 
     else:
-        # too young, sorry
         print("Go home to your mummy")
 
 else:
     print("Please enter your age: ")
-
