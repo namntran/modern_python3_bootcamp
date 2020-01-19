@@ -4,6 +4,5 @@ x = 0
  
 # YOUR CODE GOES HERE:
 for n in range(10, 21):  #remember range is exclusive, so we have to go up to 21
-    if n % 2 != 0:
         x += n # Shorthand for x = x + n
         print(n)
