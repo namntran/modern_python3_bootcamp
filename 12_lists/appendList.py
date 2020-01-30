@@ -1,4 +1,4 @@
-#add an item to the end of list
+#method to add an item to the end of list
 first_list = [1, 2, 3, 4]
 first_list.append(5)
 print(first_list)
