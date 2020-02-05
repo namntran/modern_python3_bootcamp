@@ -9,4 +9,4 @@ colours = ["red", "yellow", "purple", 6.7] #store values in list
 for colour in colours:
     print(colour)
 
-    
+   
