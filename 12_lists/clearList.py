@@ -1,6 +1,6 @@
 items = ["socks", "mug", "pot", "kibble"]
 # items.clear()
-print(items)
+print(items).po
 items.pop()
 print(items)
 
