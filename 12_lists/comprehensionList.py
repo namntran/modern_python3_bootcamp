@@ -1,7 +1,12 @@
+#list comprehension
+numbers = [num*10 for num in range(1,6)]
+print(numbers) # [10, 20, 30, 40, 50]
+
+
 # list comprehension upper case for first character of names
-names = ['nam', 'nikki', 'pebbles']
-upperNames = [char.upper() for char in names]
-print(upperNames)# ['NAM', 'NIKKI', 'PEBBLES']
+friends = ['nam', 'nikki', 'pebbles']
+names = [char[0].upper() for char in friends]
+print(names)
 
 
 # list comprehension upper case
