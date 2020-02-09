@@ -1,3 +1,9 @@
+# list comprehension upper case for first character of names
+names = ['nam', 'nikki', 'pebbles']
+upperNames = [char.upper() for char in names]
+print(upperNames)# ['NAM', 'NIKKI', 'PEBBLES']
+
+
 # list comprehension upper case
 name = 'nam'
 upperName = [char.upper() for char in name]
