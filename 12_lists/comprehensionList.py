@@ -1,13 +1,16 @@
-#list comprehension
+#list comprehension convert list of integers to strings
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
+string_list = [str(num) for num in numbers]
+print(string_list)
+
+#list comprehension - generate numbers 1-5 and multiply them by 10
 numbers = [num*10 for num in range(1,6)]
 print(numbers) # [10, 20, 30, 40, 50]
-
 
 # list comprehension upper case for first character of names
 friends = ['nam', 'nikki', 'pebbles']
 names = [char[0].upper() for char in friends]
 print(names)
-
 
 # list comprehension upper case
 name = 'nam'
