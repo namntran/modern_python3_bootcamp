@@ -1,3 +1,9 @@
+# list comprehension upper case
+name = 'nam'
+upperName = [char.upper() for char in name]
+print(name) # nam
+print(upperName) # ['N', 'A', 'M']
+
 # looping
 numbers = [1, 2, 3, 4, 5]
 doubled_numbers = []
