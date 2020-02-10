@@ -1,3 +1,10 @@
+#list comprehension with conditional logic
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
+evens = [num for num in numbers if num % 2 == 0]
+odds = [num for num in numbers if num % 2 != 0]
+print(evens)
+print(odds)
+
 #list comprehension convert list of integers to strings
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
 string_list = [str(num) for num in numbers]
