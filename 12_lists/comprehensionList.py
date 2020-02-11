@@ -1,3 +1,21 @@
+# exercise using list comprehensions:
+
+answer = [person[0] for person in ["Elie", "Tim", "Matt"]]
+answer2 = [val for val in [1,2,3,4,5,6] if val % 2 == 0]
+print(answer)
+print(answer2)
+
+# Using good old manual loops:
+answer = []
+for person in ["Elie", "Tim", "Matt"]:
+    answer.append(person[0])
+answer2 = []
+for num in [1,2,3,4,5,6]:
+    if num % 2 == 0:
+        answer2.append(num)
+print(answer)
+print(answer2)
+
 #list comprehension with conditional logic
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9 , 10]
 evens = [num for num in numbers if num % 2 == 0]
